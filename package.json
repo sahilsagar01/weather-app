@@ -1,0 +1,17 @@
+{
+  "name": "openweatherapp--api",
+  "version": "1.0.0",
+  "description": "this app tells you the current weather of eny location",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sahil Sagar",
+  "license": "ISC"
+}

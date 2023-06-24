@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica,Arial, sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+/* <--------------------------------------header------------------------------------------> */
+.logo{
+    height: 40px;
+    border: 1px solid #9da3ac;
+    border-radius: 10%;
+    margin: .5rem 1rem 0 2rem;
+}
+.logoname{
+    margin: .8rem 1rem 0 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #9da3ac;
+}
+/* head Container */
+.head-cont{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 100%;
+    max-width: 1242px;
+    margin: 0 auto;
+}
+.right-cont , .left-cont{
+    display: flex;
+}
+.nav-btn{
+    text-decoration: none;
+    color: #9BA4B5;
+}
+
+.navItems{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.items{
+    margin-right: 20px;
+}
+.bimg{
+    height: 100%;
+    width: 100%;
+}
+.pageHeading{
+    font-size: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+/* <----------------------------------------body---------------------------------------> */
+/* search */
+#search{
+    text-align: center;
+}
+.searchD{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    margin: auto;
+}
+.search-box{
+    margin: 5rem auto 3rem;
+}
+.searchBar{
+    height: 2rem;
+    width: 18rem;
+    border: 0.5px solid #9BABB8;
+    border-radius: 20px;
+    margin: 1rem 1rem;
+    padding: 0 10px;
+}
+.btn{
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2E8A99;
+    color: #fff;
+}
+.btn-r{
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2E8A99;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+/* content */
+#contentContainer{
+    padding: 2rem 15rem;
+}
+@media(max-width: 767px){
+    #contentContainer{
+        padding: 2rem 5rem;
+    }
+    .logoname{
+        font-size: 1rem;
+    }
+    .logo{
+        height: 20px;
+        margin: .7rem .5rem 0 1rem;
+    }
+    .nav-btn{
+        font-size: 10px;
+    }
+    .items{
+        margin-right: 10px;
+    }
+    .searchD{
+        font-size: 1.5rem;
+        margin: auto;
+    }
+    .searchBar{
+        width: 15rem;
+    }
+    .main-content{
+        text-align: center;
+    }
+}
+@media(max-width: 1200px){
+    #contentContainer{
+        padding: 2rem 3rem;
+    }
+    .search-box{
+        margin: 5rem 0 3rem;
+    }
+    .btn{
+        width: 4rem;
+        display: block;
+        text-align: center;
+        margin: auto
+    }
+    
+
+}
+.contHeading{
+    font-family: 'Poppins', sans-serif;
+}
+.cont-img{
+    width: 30%;
+    margin: 0 1rem 0.5rem 0;
+    float: left;
+}
+.cont-img2{
+    width: 30%;
+    margin: 0 1rem 0.5rem;
+    float: right;
+}
+@media(max-width: 767px){
+    .cont-img , .cont-img2{
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
+/* content heding */
+.second-heading{
+    text-align: right;
+}
+@media(max-width: 767px){
+    .second-heading{
+        text-align: center;
+    }
+    .first-heading{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+.content-right{
+    margin: 6rem 0;
+}
+.contSummeryLeft , .contSummeryRight{
+    line-height: 2rem;
+}
+
+/* <----------------------------------------------footer----------------------------------------------> */
+#footer{
+    text-align: center;
+    background-color: #C2DEDC;
+}
+@media(max-width: 767px){
+    #footer{
+        margin:5rem auto 0;
+    }
+}
+.copyright-text{
+    padding-top: 1rem;
+}
+.copyright{
+    margin: 0 auto;
+}
+.links{
+    padding-bottom: 3.5rem;
+}
+@media(max-width: 767px){
+    .proIcon{
+        margin: 6rem auto 3rem;
+    }
+}
+/* -------------------------------------------------result----------------------------------------- */
+
+.result{
+    text-align: center;
+    margin: 6% auto 15%;
+}
+/* --------------------------------------------contact--------------------------------------------- */
+.contactInfo{
+    text-align: center;
+    margin: 5% auto 10%;
+}
+.info{
+    text-align: left;
+    padding: 2rem 4rem 3rem;
+}
+.name{
+    margin: 1% auto 5%;
+}
+.Dp{
+    height: 150px;
+    border-radius: 10px;
+}
+.fa-brands{
+    margin: auto 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+@media(max-width: 767px){
+    .pageHeading{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .name{
+        margin: 1rem auto 3rem;
+    }
+}
+@media(max-width: 1200px)and(min-width:767){
+    .contactInfo{
+        margin: 8rem auto 10rem;
+    }
+    .proIcon{
+        margin: 5rem auto 0;
+    }
+}
+/* -----------------------------------About----------------------------------------------------- */
+.aboutI{
+    margin-bottom: 10%;
+}
+@media(max-width: 766px){
+    .aboutI{
+        margin-bottom: 5rem;
+    }
+    .about{
+        text-align: center;
+    }
+    .fac{
+        text-align: left;
+    }
+}
+@media(max-width: 1200px){
+    .fac{
+        margin: 5rem auto 8rem;
+    }
+}
+.help{
+    margin: 5% auto;
+}
+@media(max-width: 767px){
+    .help{
+        margin: 3rem auto 2rem;
+    }
+}
+@media(max-width: 1200px){
+    .help{
+        margin: 12rem auto 10rem;
+    }
+}
+/* ---------------------------------------error-------------------------------------------------- */
+.sorry{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3rem;
+}

@@ -1,0 +1,16 @@
+<%- include("partials/header"); -%>
+
+<section id="contentContainer" class="result">
+    <h1 class="resultHeading">the current temperature in <%= HEADING %>, (<%= country %>) is <%= TEMP %> °C</h1>
+
+    <P>The weather is Currently <strong><%= weatdes %></strong></p>
+
+    <p>Speed of Wind is <strong><%= windSpeed %> m/s</strong></p>
+
+    <p>Humidity is <%= Hdt %> %</p>
+
+    <img src="<%= imageurl %>">
+    <button class="btn-r"><a href="/"></a>Home</button>
+</section>
+
+<%- include("partials/footer"); -%>
