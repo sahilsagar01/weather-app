@@ -25,10 +25,7 @@ app.post("/" , function(req , res){
 
     https.get(url , function(response) {
         response.on("data" , function(data){
-            console.log(data)
             const weatherinfo = JSON.parse(data);
-           
-            console.log(JSON.parse(data))
             console.log(weatherinfo.cod)
             if(weatherinfo.cod === 200){
                 const NAME = weatherinfo.name;
@@ -61,6 +58,6 @@ app.get("/contact" , function(req , res){
 })
 
 
-app.listen( 3000 , function(){
+app.listen( 3003 , function(){
     console.log("server is up and running")
 })
