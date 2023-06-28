@@ -210,6 +210,11 @@ p{
     text-align: center;
     margin: 6% auto 15%;
 }
+@media (max-width: 767px) {
+    .btn-r{
+        margin: 5rem auto 8rem;
+    }
+}
 /* --------------------------------------------contact--------------------------------------------- */
 .contactInfo{
     text-align: center;
@@ -218,6 +223,12 @@ p{
 .info{
     text-align: left;
     padding: 2rem 4rem 3rem;
+}
+@media (max-width: 767px) {
+    .info{
+        padding: 0;
+    }
+    
 }
 .name{
     margin: 1% auto 5%;
@@ -285,4 +296,9 @@ p{
 .sorry{
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 3rem;
+}
+@media (max-width: 767px) {
+    .btn-r{
+        margin: 8rem auto 12rem;
+    }
 }
